@@ -8,12 +8,12 @@ class book {
 }
 //put one into the list
 const tbody = document.querySelector("tbody");
-const row1 = document.createElement("tr");
-row1.innerHTML = `<td>A Smart Pig</td>
-<td>Jane E.</td>
-<td>53452345</td>
-<td><a href = "#" id = "delete-btn" class = "btn btn-danger btn-sm delete"><i class="fas fa-trash-alt icon"></i></a></td>`;
-tbody.appendChild(row1);
+// const row1 = document.createElement("tr");
+// row1.innerHTML = `<td>A Smart Pig</td>
+// <td>Jane E.</td>
+// <td>53452345</td>
+// <td><a href = "#" id = "delete-btn" class = "btn btn-danger btn-sm delete"><i class="fas fa-trash-alt icon"></i></a></td>`;
+// tbody.appendChild(row1);
 
 //addOne into the list
 const form = document.querySelector(".myForm");
